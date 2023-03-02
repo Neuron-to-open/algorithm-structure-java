@@ -39,7 +39,7 @@ public class LinkListance {
 
     /**
      *作用 ------向表中顺组增加函数
-     * 返回值:void
+     * 返回值类型:void
      * 函数原型:public void addLinkedList(int num)
      * */
     public void addLinkedList(int num){
@@ -48,7 +48,7 @@ public class LinkListance {
 
     /**
      * 作用-----获取链表的长度
-     * 返回值: int
+     * 返回值类型: int
      * 函数原型: public int getLinkedListLength()
      * */
     public int getLinkedListLength(){
@@ -57,7 +57,7 @@ public class LinkListance {
 
     /**
      * 作用-----获取初始值Length
-     * 返回值: int
+     * 返回值类型: int
      * 函数原型: public int getLength()
      * */
     public int getLength(){
@@ -66,7 +66,7 @@ public class LinkListance {
 
     /**
      * 作用-----向链表中指定位置插入数据
-     * 返回值: boolean
+     * 返回值类型: boolean
      * 函数原型: public boolean insertLinkedList(int num , int loc)
      * */
     public boolean insertLinkedList(int num , int loc){
@@ -87,7 +87,7 @@ public class LinkListance {
 
     /**
      * 作用-----删除指定位置的数据
-     * 返回: boolean
+     * 返回值类型: boolean
      * 函数原型: public boolean deleteLinkedList(int loc)
      * */
     public boolean deleteLinkedList(int loc){
@@ -107,7 +107,7 @@ public class LinkListance {
 
     /**
      * 作用------输出表中的数据
-     * 返回值: void
+     * 返回值类型: void
      * 函数原型: public void showLinkedList()
      * */
     public void showLinkedList(){
@@ -120,7 +120,7 @@ public class LinkListance {
 
     /**
      * 作用-----查找某个元素
-     * 返回值: int
+     * 返回值类型: int
      * 函数原型: public int SearchLinkedList(int num)
      * */
     public int SearchLinkedList(int num){
@@ -135,7 +135,7 @@ public class LinkListance {
 
     /**
      * 作用-----更改元素
-     * 返回值: boolean
+     * 返回值类型: boolean
      * 函数原型: public boolean changeArray(int loc , int num)
      * */
     public boolean changeArray(int loc , int num){

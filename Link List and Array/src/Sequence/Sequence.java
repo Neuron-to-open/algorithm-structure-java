@@ -43,7 +43,7 @@ public class Sequence {
 
     /**
      * 作用-----获取当前表的长度
-     * 返回值: int
+     * 返回值类型: int
      * 函数原型: public int getArrayListLength
      * */
     public int getArrayListLength(){
@@ -52,16 +52,17 @@ public class Sequence {
 
     /**
      * 作用----=向表中顺序增加数据
-     * 返回值: void
+     * 返回值类型: void
      * 函数原型: public void addArray(int num)
      * */
     public void addArray( int num ){
+
         this.arrayList.add(num) ;
     }
 
     /**
      * 作用-----向表中指定位置插入数据
-     * 返回值: boolean
+     * 返回值类型: boolean
      * 函数原型: public boolean insertArray(int num , int loc )
      * */
     public boolean insertArray(int num , int loc ){
@@ -83,7 +84,7 @@ public class Sequence {
 
     /**
      * 作用-----删除指定位置的数据
-     * 返回值: boolean
+     * 返回值类型: boolean
      * 函数原型: public boolean deleteArray(int num , int index)
      * */
     public boolean deleteArray( int loc ){
@@ -105,7 +106,7 @@ public class Sequence {
 
     /**
      * 作用-----输出表中有的数据
-     * 返回值: void
+     * 返回值类型: void
      * 函数原型: public void showArray()
      * */
     public void showArray(){
@@ -119,7 +120,7 @@ public class Sequence {
 
     /**
      * 作用------查找某个元素
-     * 返回值: int
+     * 返回值类型: int
      * 函数原型: public int SearchArray(int num)
      * */
     public int SearchArray(int num){
@@ -133,7 +134,7 @@ public class Sequence {
 
     /**
      * 作用-----更改元素
-     * 返回值: boolean
+     * 返回值类型: boolean
      * 函数原型: public boolean changeArray(int loc , int num)
      * */
     public boolean changeArray(int num , int loc ){
